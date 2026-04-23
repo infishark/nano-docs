@@ -1,11 +1,11 @@
 ---
 title: Sync
-sidebar_position: 5
+sidebar_position: 6
 ---
 
-Sync copies files between paired Nanos. Captured handshakes, device settings, portal credentials, and individual files can all move across the mesh without plugging anything into a computer.
+Sync copies files between paired Nanos. Captured handshakes, device settings, submitted captive portal JSONs, and individual files can all move across the mesh without plugging anything into a computer.
 
-Open <strong>Shiver → Sync</strong> to start. The app walks you through a short wizard: <strong>From</strong>, <strong>To</strong>, <strong>What</strong>, then a <strong>Review</strong> screen before anything transfers.
+Open <strong>Shiver -> Sync</strong> to start. The app walks you through a short wizard: <strong>From</strong>, <strong>To</strong>, <strong>What</strong>, then a <strong>Review</strong> screen before anything transfers.
 
 ### Wizard Steps
 
@@ -29,12 +29,12 @@ The choices shown depend on what you picked for <strong>From</strong>. For examp
 
 #### What
 
-Pick the kind of data to sync. The options depend on the <strong>From</strong> and <strong>To</strong> combination, but they include:
+Pick the kind of data to sync. The options that appear depend on the <strong>From</strong> and <strong>To</strong> combination, but they include:
 
 - <strong>Handshake files</strong> - captured Wi-Fi handshakes.
 - <strong>Local file</strong> - pick a single file from the source device's storage (only available when the source is <em>This device</em>).
 - <strong>Settings</strong> - share device settings. A category picker opens so you can choose which sets of settings to include (Display, Mesh, Wi-Fi, Bluetooth, IR, System, and so on).
-- <strong>Portal creds</strong> - captured captive portal credentials.
+- <strong>Portal creds</strong> - submitted JSONs from captive portals.
 
 #### Review
 
@@ -57,9 +57,9 @@ When the session finishes, you'll see a summary with how many items were new, ho
 When another paired Nano sends data to this device, it automatically opens the Sync app in receiver mode. The screen shows it's being synced so the person holding it knows not to press buttons. Press <strong>[S]</strong> to exit receiver mode once the session is done.
 
 :::tip
-Sync only moves data between paired Nanos on the same mesh. If a target device isn't showing up in the pickers, check the [Pairing and Dashboard](./pairing-and-dashboard) page to confirm it's online and on the same Long Range setting.
+Sync only moves data between paired Nanos on the same mesh. If a target device isn't showing up in the pickers, check the <a href="./dashboard">Dashboard</a> to confirm it's online, and make sure it's on the same Long Range setting.
 :::
 
-:::note
-Some combinations are limited on purpose. For example, sending a specific single file from multiple source devices doesn't make sense, so the wizard will warn you if you try. Pick one source for file-level sync, or stick to category syncs (handshakes, settings, portal creds) when you want to combine multiple sources.
+:::note[Some combinations are not supported]
+Some From/To/What combinations don't make sense, so the wizard simply doesn't offer them as options. For example, you can't send a <strong>specific single file</strong> from <strong>multiple</strong> source devices in the same session, because the file would only exist on one of them. Pick a single source for file-level sync, or stick to category syncs (handshakes, settings, portal JSONs) when you want to combine data from multiple sources.
 :::
