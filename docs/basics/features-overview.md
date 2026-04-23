@@ -43,7 +43,8 @@ The BLEShark Nano packs a wide range of powerful tools into one pocket-sized dev
 ## Other Features
 
 - **Easy Setup** - Plug in and get started in seconds  
-- **Extra Settings Mode** - Fine-tune Wi-Fi, BLE delays, keypad layout, and more  
+- **On-Device Settings** - Edit every setting directly on the Nano via **Config -> Settings**  
+- **File Transfer Portal** - Upload scripts, portal HTML, and Wi-Fi names, or export handshakes and settings, via **Config -> Transfer**  
 - **Auto Firmware Updates** - Receive OTA updates automatically  
 - **Emergency Mode** - Instantly launch Flappy Bird to exit pentesting mode  
 - **Screensaver** - Includes a bouncing DVD screensaver  

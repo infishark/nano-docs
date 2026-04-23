@@ -17,9 +17,8 @@ It cycles through each code automatically until it finds one that works, making 
 
 ### Tips for Best Results
 
-- Use **Extra Settings Mode** to switch between US and EU IR code sets.  
-- Keep the BLEShark Nano pointed directly at the TV’s IR receiver.  
-- Some TVs may take longer to respond — the Nano is cycling through many brand codes.
+- Keep the BLEShark Nano pointed directly at the TV's IR receiver.  
+- Some TVs may take longer to respond, the Nano is cycling through many brand codes.
 
 :::warning[Responsible Use Warning]
 The TV-B-Gone feature is intended for ethical and personal use only.  

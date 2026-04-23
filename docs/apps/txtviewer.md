@@ -18,9 +18,9 @@ If no file has been uploaded, you'll see instructions on how to add your own.
 ### How to Upload a Text File
 
 <ul className="step-list">
-  <li>Enter <strong>Extra Settings Mode</strong>.</li>
+  <li>Open <strong>Config -> Transfer</strong> on your BLEShark Nano.</li>
   <li>Connect to the BLEShark Nano’s Wi-Fi hotspot.</li>
-  <li>Open the captive portal in your browser.</li>
+  <li>Open the portal in your browser.</li>
   <li>Go to <strong>App Settings</strong> and click <strong>Upload TxtViewer File</strong>.</li>
   <li>Upload your UTF-8 text file, then hit <strong>Apply Changes</strong>.</li>
 </ul>

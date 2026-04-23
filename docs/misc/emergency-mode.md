@@ -12,7 +12,6 @@ Useful for quick distractions or silent exits from menus.
 ### How to Disable Emergency Mode
 
 <ul className="step-list">
-  <li>Open the <strong>Extra Settings</strong> app.</li>
-  <li>Connect to the BLEShark Wi-Fi network.</li>
-  <li>Use the captive portal to toggle <strong>Emergency Mode</strong> off.</li>
+  <li>Open <strong>Config -> Settings -> System</strong>.</li>
+  <li>Toggle <strong>Emergency</strong> off.</li>
 </ul>

@@ -9,7 +9,7 @@ Your BLEShark Nano checks for updates every time it boots (as long as it's conne
 It compares the installed version to the latest version hosted on GitHub.  
 This check is quick - usually takes about <strong>1-5 seconds</strong>.
 
-Automatic updates are <strong>enabled by default</strong>, but you can turn them off via <strong>Extra Settings Mode</strong>.
+Automatic updates are <strong>enabled by default</strong>, but you can turn them off from <strong>Config -> Settings -> System -> Updates</strong>.
 
 ### How Auto Updates Work
 

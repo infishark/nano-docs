@@ -29,11 +29,11 @@ That mode registers the device as a mouse - not a keyboard - and prevents Bad-BT
 
 ### Uploading Your Own Scripts
 
-You can write and upload your own DuckyScript files using the Extra Settings mode:
+You can write and upload your own DuckyScript files using the on-device Transfer portal:
 
 <ol className="step-list">
   <li>Create your script using <code>.txt</code> format with DuckyScript commands.</li>
-  <li>Turn on the BLEShark Nano and navigate to <strong>Extra Settings Mode</strong>.</li>
+  <li>Turn on the BLEShark Nano and open <strong>Config -> Transfer</strong>.</li>
   <li>Connect to the BLEShark Wi-Fi network, enter the credentials shown on-screen.</li>
   <li>Scroll down to <strong>Apps Settings</strong> and click <strong>Upload Script</strong>.</li>
   <li>Select your script file and click <strong>Save Settings</strong>.</li>

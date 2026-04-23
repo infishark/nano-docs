@@ -18,13 +18,16 @@ View the full shortcut layout in the [Shortcut Guide](/docs/misc/shortcut-guide)
 
 ### How to Edit Keypad Commands
 
+You can edit keypad macros directly on the device, no computer needed:
+
 <ul className="step-list">
-  <li>Enter <strong>Extra Settings Mode</strong> on your BLEShark Nano.</li>
-  <li>Connect to the BLEShark Wi-Fi network when it appears.</li>
-  <li>Open the captive portal in your browser.</li>
-  <li>Go to <strong>App Settings</strong> and select <strong>Keypad Settings</strong>.</li>
+  <li>Open <strong>Config -> Settings -> Bluetooth -> Keypad</strong>.</li>
+  <li>Pick one of the eight slots.</li>
   <li>Enter your desired command (example: <code>ctrl+alt+delete</code>).</li>
+  <li>Save to apply.</li>
 </ul>
+
+If you'd rather edit from a browser, you can also open <strong>Config -> Transfer</strong>, connect to the BLEShark Wi-Fi network, open the portal, and use <strong>App Settings -> Keypad Settings</strong> there.
 
 :::tip
 Use the correct format: <code>key+key+key</code> with no spaces.
