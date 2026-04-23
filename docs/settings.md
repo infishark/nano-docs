@@ -79,10 +79,6 @@ Open <strong>Config -> Transfer</strong> to bring up the file portal. The device
 - <strong>Portal HTML</strong> - the last HTML page you uploaded, so you can pull it back for editing.
 - <strong>Wi-Fi names list</strong> - the CSV you uploaded for AP Spam.
 
-:::warning[Saving Changes]
-When you edit values in the portal, remember to press <strong>Apply Settings</strong> before closing the page. Changes that aren't applied are discarded.
-:::
-
 :::tip
 If you have a mesh set up, you can also move handshakes, settings, and portal submissions <em>between Nanos</em> over Shiver Mesh, no computer needed. See <a href="/docs/mesh/sync">Sync</a>.
 :::

@@ -96,3 +96,39 @@
   background: #ddd;
   opacity: 1;
 }
+
+/* Content links: keep body-text color but add a subtle underline so
+   links are identifiable without hovering. Intensifies on hover. */
+:root {
+  --link-underline-color: rgba(0, 0, 0, 0.4);
+}
+
+[data-theme='dark'] {
+  --link-underline-color: rgba(255, 255, 255, 0.5);
+}
+
+.markdown a,
+article a {
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline-color);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s ease;
+}
+
+.markdown a:hover,
+article a:hover {
+  text-decoration-color: currentColor;
+}
+
+/* Don't underline the link cards and button-shaped links on the
+   homepage or footer, they already look clickable. */
+.markdown a.card,
+.markdown a.button,
+article a.card,
+article a.button,
+article a[class*="linkCard"],
+article a[class*="docButton"],
+.footer a {
+  text-decoration: none;
+}
