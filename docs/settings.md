@@ -1,5 +1,6 @@
 ---
 title: Settings
+sidebar_position: 9
 ---
 
 The BLEShark Nano gives you two places to tune how the device behaves, both under the <strong>Config</strong> entry on the main menu:
@@ -16,13 +17,13 @@ Settings are grouped by category:
 #### Shiver
 
 - <strong>BLE Adv</strong> - turn regular Bluetooth advertising on or off.
-- <strong>Shiver</strong> - enable Shiver Mesh. See <a href="/docs/mesh/overview">Shiver Mesh Overview</a>.
+- <strong>Shiver</strong> - enable Shiver, the multi-device protocol. See <a href="/docs/mesh/overview">Shiver Overview</a>.
 - <strong>Name</strong> - the mesh name other Nanos see for this device. Up to 8 characters. Leave blank to fall back to the first four bytes of the eFuse ID.
 - <strong>Long Range</strong> - toggle the mesh's Long Range radio rate. See <a href="/docs/mesh/long-range-mode">Long Range Mode</a> for the tradeoffs.
 
 #### WiFi
 
-- <strong>WiFi Nets</strong> - manage the list of saved Wi-Fi networks the device can join (see <a href="/docs/basics/getting-started">Getting Started</a>).
+- <strong>WiFi Nets</strong> - manage the list of saved Wi-Fi networks. The Nano cycles through this list automatically on boot and during firmware updates until it finds one that's available, so you rarely need to touch it after first-time setup. Use the rows here to add new networks or remove old ones. The separate <strong>Wi-Fi -> Connect</strong> menu (not in Settings) is a testing tool for forcing a connection to a specific saved network so you can observe DHCP traffic, find an IoT device's IP, or run other tests against it.
 - <strong>Deauth Dly</strong> - delay between deauth frames, in milliseconds. Range 0 to 50.
 - <strong>AP Count</strong> - maximum number of access points to list when scanning. Range 10 to 500.
 - <strong>Evil SSID</strong> - Wi-Fi name the device broadcasts when running Evil Portal. Up to 32 characters.
@@ -80,5 +81,5 @@ Open <strong>Config -> Transfer</strong> to bring up the file portal. The device
 - <strong>Wi-Fi names list</strong> - the CSV you uploaded for AP Spam.
 
 :::tip
-If you have a mesh set up, you can also move handshakes, settings, and portal submissions <em>between Nanos</em> over Shiver Mesh, no computer needed. See <a href="/docs/mesh/sync">Sync</a>.
+If you have a mesh set up, you can also move handshakes, settings, and portal submissions <em>between Nanos</em> over Shiver, no computer needed. See <a href="/docs/mesh/sync">Sync</a>.
 :::
