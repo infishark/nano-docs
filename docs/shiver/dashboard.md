@@ -42,7 +42,7 @@ A list of every paired Nano that's currently reachable, including ones more than
 - <strong>Role</strong> - whether this device is the current <em>Leader</em> (keeper of the shared time base) or a <em>Follower</em>.
 - <strong>Sync</strong> - the mesh sync state, one of <em>Offline</em>, <em>Bootstrap</em>, <em>Holdover</em>, or <em>Synced</em>.
 - <strong>Paired</strong> - total number of paired Nanos this device knows about.
-- <strong>Rate</strong> - the current radio rate, either <em>Std 1M</em> or <em>LR 250k</em>. See <a href="/docs/mesh/long-range-mode">Long Range Mode</a> for what the difference means.
+- <strong>Rate</strong> - the current radio rate, either <em>Std 1M</em> or <em>LR 250k</em>. See <a href="/docs/shiver/long-range-mode">Long Range Mode</a> for what the difference means.
 
 :::tip
 If the Overview page says the device is Connected but paired Nanos aren't showing up under Online, check the About -> Mesh page. If <strong>Rate</strong> differs between devices, they won't be able to talk to each other until they match.

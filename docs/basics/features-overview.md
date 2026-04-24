@@ -18,7 +18,7 @@ The BLEShark Nano packs a wide range of powerful tools into one pocket-sized dev
 - **BLE Scan** - Discover nearby Bluetooth Low Energy devices, with on-device manufacturer lookup  
 
 :::info[Run any of these across a Shiver mesh]
-Most pentesting features (BLESpam, Wi-Fi AP Spam, Deauth, Deauth Checker, Captive Portal, Handshake Capture, Wi-Fi Scan, BLE Scan) and the Infrared tools below (TV-B-Gone, IR Transmit, IR Receive) can be dispatched across every paired device at once, up to **16 Nanos per mesh**. See [Execute](/docs/mesh/execute).
+Most pentesting features (BLESpam, Wi-Fi AP Spam, Deauth, Deauth Checker, Captive Portal, Handshake Capture, Wi-Fi Scan, BLE Scan) and the Infrared tools below (TV-B-Gone, IR Transmit, IR Receive) can be dispatched across every paired device at once, up to **16 Nanos per mesh**. See [Execute](/docs/shiver/execute).
 :::
 
 ## Infrared (IR)

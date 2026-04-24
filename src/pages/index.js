@@ -16,7 +16,7 @@ const quickLinks = [
   {
     title: 'Shiver',
     emoji: '🔗',
-    to: '/docs/mesh/overview',
+    to: '/docs/shiver/overview',
     description:
       'Link multiple Nanos into a shared mesh to run commands, sync files, and coordinate across paired devices.'
   },

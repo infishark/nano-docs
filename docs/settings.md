@@ -17,9 +17,9 @@ Settings are grouped by category:
 #### Shiver
 
 - <strong>BLE Adv</strong> - turn regular Bluetooth advertising on or off.
-- <strong>Shiver</strong> - enable Shiver, the multi-device protocol. See <a href="/docs/mesh/overview">Shiver Overview</a>.
+- <strong>Shiver</strong> - enable Shiver, the multi-device protocol. See <a href="/docs/shiver/overview">Shiver Overview</a>.
 - <strong>Name</strong> - the mesh name other Nanos see for this device. Up to 8 characters. Leave blank to fall back to the first four bytes of the eFuse ID.
-- <strong>Long Range</strong> - toggle the mesh's Long Range radio rate. See <a href="/docs/mesh/long-range-mode">Long Range Mode</a> for the tradeoffs.
+- <strong>Long Range</strong> - toggle the mesh's Long Range radio rate. See <a href="/docs/shiver/long-range-mode">Long Range Mode</a> for the tradeoffs.
 
 #### WiFi
 
@@ -81,5 +81,5 @@ Open <strong>Config -> Transfer</strong> to bring up the file portal. The device
 - <strong>Wi-Fi names list</strong> - the CSV you uploaded for AP Spam.
 
 :::tip
-If you have a mesh set up, you can also move handshakes, settings, and portal submissions <em>between Nanos</em> over Shiver, no computer needed. See <a href="/docs/mesh/sync">Sync</a>.
+If you have a mesh set up, you can also move handshakes, settings, and portal submissions <em>between Nanos</em> over Shiver, no computer needed. See <a href="/docs/shiver/sync">Sync</a>.
 :::
