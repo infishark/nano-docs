@@ -1,5 +1,6 @@
 ---
 title: Bad-BT
+sidebar_position: 6
 ---
 
 **Bad-BT** is a powerful Bluetooth-based payload injector built into the BLEShark Nano. It works like a wireless Rubber Ducky for Bluetooth devices - letting you:
@@ -35,11 +36,27 @@ You can write and upload your own DuckyScript files using the on-device Transfer
   <li>Create your script using <code>.txt</code> format with DuckyScript commands.</li>
   <li>Turn on the BLEShark Nano and open <strong>Config -> Transfer</strong>.</li>
   <li>Connect to the BLEShark Wi-Fi network, enter the credentials shown on-screen.</li>
-  <li>Scroll down to <strong>Apps Settings</strong> and click <strong>Upload Script</strong>.</li>
-  <li>Select your script file and click <strong>Save Settings</strong>.</li>
+  <li>Under the <strong>Upload Files</strong> section, click <strong>BadUSB Script</strong> and select your file.</li>
+  <li>Once the upload completes, the script is ready to run from the Bad-BT menu.</li>
 </ol>
 
 To run your uploaded script, just select the **custom** option from the Bad-BT menu.
+
+### Editing DuckyScript On-Device
+
+You can also write and edit DuckyScript files directly on the BLEShark Nano, no computer needed.
+
+<ul className="step-list">
+  <li>Open <strong>Bad-BT -> Edit</strong> on your device.</li>
+  <li>You'll see every line of the current script, plus <strong>+ Add Line</strong>, <strong>Save</strong>, and <strong>Back</strong> at the bottom of the list.</li>
+  <li>Selecting an existing line opens an actions menu with <strong>Edit</strong>, <strong>Insert After</strong>, <strong>Delete</strong>, and <strong>Back</strong>. Pick one to apply it.</li>
+  <li><strong>+ Add Line</strong> appends a new empty line at the bottom for you to fill in.</li>
+  <li>When you have unsaved changes, the <strong>Save</strong> label shows a trailing asterisk (<code>Save *</code>). Select it to commit your changes.</li>
+</ul>
+
+:::info[Limits]
+Scripts edited on-device can hold up to <strong>1024 lines</strong>, and each line can be up to <strong>64 characters</strong> long. The on-device editor and the Transfer portal edit the same script file, so changes you make on the device will show up in later exports, and the other way around.
+:::
 
 :::danger[Legal Warning]
 Bad-BT is intended for **educational, testing, and ethical security use** only.  
