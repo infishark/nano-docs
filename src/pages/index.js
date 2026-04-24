@@ -4,28 +4,28 @@ import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
 export default function Home() {
-  
+
 const quickLinks = [
   {
     title: 'Basics',
     emoji: '📖',
     to: '/docs/basics/getting-started',
     description:
-      'Learn about firmware updates, how to set up the BLEShark Nano, and how to charge it.'
+      'Get your BLEShark Nano set up, understand charging, and learn how firmware updates work.'
+  },
+  {
+    title: 'Shiver',
+    emoji: '🔗',
+    to: '/docs/mesh/overview',
+    description:
+      'Link multiple Nanos into a shared mesh to run commands, sync files, and coordinate across paired devices.'
   },
   {
     title: 'Pentesting',
     emoji: '📡',
     to: '/docs/pentesting/blespam',
     description:
-      'Explore the pentesting features on the BLEShark Nano.'
-  },
-  {
-    title: 'Apps',
-    emoji: '📲',
-    to: '/docs/apps/media-controls',
-    description:
-      'Discover and learn how to use the apps on the BLEShark Nano.'
+      'Wi-Fi and Bluetooth tools: BLE and AP spam, deauth, handshake capture, evil portals, and more.'
   },
   {
     title: 'Infrared',
@@ -35,39 +35,46 @@ const quickLinks = [
       'Capture and emulate IR remotes used in TVs, sound systems, and more.'
   },
   {
+    title: 'Apps',
+    emoji: '📲',
+    to: '/docs/apps/mini-keypad',
+    description:
+      'Built-in apps: Mini Keypad, Scroller, TxtViewer, Stopwatch, Timer, and more.'
+  },
+  {
     title: 'Bad-BT',
     emoji: '😈',
     to: '/docs/bad-bt',
-    description: 
-      'Learn how to use the Bad-BT feature to emulate a keyboard that sends commands.'
-  },
-  {
-    title: 'Settings',
-    emoji: '⚙️',
-    to: '/docs/settings',
-    description: 
-      'Tweak each and every configuration to make the device perfect for you.'
-  },
-  {
-    title: 'Developers',
-    emoji: '🖥️',
-    to: '/docs/developers/captive-portal',
-    description: 
-      'All the information for developers to create captive portals.' 
+    description:
+      'Emulate a Bluetooth keyboard and run DuckyScript payloads, with an on-device editor.'
   },
   {
     title: 'Games',
     emoji: '👾',
     to: '/docs/games',
     description:
-      'How to play the games: Flappy Bird, Invaders, Trex, and more.'
+      'Malware Hunter, Flappy Bird, Invaders, Pong, Breakout, T-Rex, Racing, and more.'
+  },
+  {
+    title: 'Developers',
+    emoji: '🖥️',
+    to: '/docs/developers/captive-portal',
+    description:
+      'Information for developers who want to build custom captive portals for the Nano.'
   },
   {
     title: 'Misc',
     emoji: '🔌',
     to: '/docs/misc/emergency-mode',
     description:
-      'All the rest - including IR Remote Shortcuts, Emergency Mode, and more.'
+      'Everything else: Emergency Mode, Shortcut Guide, Screensaver, and more.'
+  },
+  {
+    title: 'Settings',
+    emoji: '⚙️',
+    to: '/docs/settings',
+    description:
+      'Edit settings on-device with Config -> Settings, or manage files with Config -> Transfer.'
   },
 ];
 

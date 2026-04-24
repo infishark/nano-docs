@@ -71,26 +71,31 @@
 .buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.75rem;
   justify-content: center;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 720px;
 }
 
 .docButton {
   background-color: #3c3d41;
   color: #fff;
-  width: 200px;
-  padding: 0.9rem 2rem;
-  justify-content: center;
-  font-size: 1rem;
+  flex: 1 1 200px;
+  max-width: 240px;
+  padding: 0.8rem 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 500;
   border: none;
   border-radius: 8px;
   text-decoration: none;
+  white-space: nowrap;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease;
   display: inline-flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: center;
+  gap: 0.55rem;
 }
 
 .docButton:hover {
@@ -101,20 +106,24 @@
 
 .quickLinks {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(190px, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1rem;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .linkCard {
   background: var(--ifm-background-card);
   border: 1px solid var(--ifm-color-emphasis-200);
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 1.25rem;
   text-decoration: none;
   color: inherit;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   display: flex;
   flex-direction: column;
+  min-height: 170px;
 }
 
 .linkCard:hover {
