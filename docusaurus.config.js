@@ -69,14 +69,7 @@ const config = {
           alt: 'InfiShark Logo',
           src: 'img/logo.svg',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Documentation',
-          },
-        ],
+        items: [],
       },
 
       footer: {
