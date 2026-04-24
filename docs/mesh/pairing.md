@@ -11,7 +11,7 @@ On every Nano you want on the mesh:
 
 <ul className="step-list">
   <li>Make sure <strong>BLE Adv</strong> is turned on in <strong>Config -> Settings -> Shiver</strong>. Pairing itself runs over Bluetooth, then the devices swap to the mesh after they're paired.</li>
-  <li>Optionally set a mesh name in the <strong>Name</strong> row so other Nanos show a friendly label for the device instead of its eFuse ID (see <a href="./overview">Overview</a>).</li>
+  <li>Optionally set a mesh name in the <strong>Name</strong> row so other Nanos show a friendly label for the device instead of its eFuse ID (see <a href="/docs/mesh/overview">Overview</a>).</li>
 </ul>
 
 Long Range mode doesn't matter here. It only affects how the mesh talks after pairing, not the Bluetooth link used during pairing itself.

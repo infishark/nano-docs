@@ -57,7 +57,7 @@ When the session finishes, you'll see a summary with how many items were new, ho
 When another paired Nano sends data to this device, it automatically opens the Sync app in receiver mode. The screen shows it's being synced so the person holding it knows not to press buttons. Press <strong>[S]</strong> to exit receiver mode once the session is done.
 
 :::tip
-Sync only moves data between paired Nanos on the same mesh. If a target device isn't showing up in the pickers, check the <a href="./dashboard">Dashboard</a> to confirm it's online, and make sure it's on the same Long Range setting.
+Sync only moves data between paired Nanos on the same mesh. If a target device isn't showing up in the pickers, check the <a href="/docs/mesh/dashboard">Dashboard</a> to confirm it's online, and make sure it's on the same Long Range setting.
 :::
 
 :::note[Some combinations are not supported]

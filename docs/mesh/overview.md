@@ -3,7 +3,7 @@ title: Overview
 sidebar_position: 1
 ---
 
-Shiver Mesh is the BLEShark Nano's multi-device mode. When two or more Nanos are paired together, they form a small wireless mesh and can share state, run commands in parallel, and sync files between each other, all without needing a phone or computer in the middle.
+Shiver is the BLEShark Nano's multi-device protocol. When two or more Nanos are paired together, they form a small wireless mesh and can share state, run commands in parallel, and sync files between each other, all without needing a phone or computer in the middle.
 
 Most of the Nano's standalone features keep working on their own. Turning Shiver on just unlocks a second layer of features that span a group of paired devices.
 
@@ -43,6 +43,6 @@ For a clean pairing experience, make sure every Nano you want on the mesh:
   <li>Has <strong>BLE Adv</strong> turned on under <strong>Config -> Settings -> Shiver</strong>. Pairing itself runs over Bluetooth; the devices swap to the mesh automatically after they're paired.</li>
 </ul>
 
-Long Range mode is <em>not</em> a prerequisite for pairing. Pairing uses Bluetooth, which isn't affected by the Long Range setting. See <a href="./long-range-mode">Long Range Mode</a> for when and why you'd turn it on.
+Long Range mode is <em>not</em> a prerequisite for pairing. Pairing uses Bluetooth, which isn't affected by the Long Range setting. See <a href="/docs/mesh/long-range-mode">Long Range Mode</a> for when and why you'd turn it on.
 
-When everything is ready, head to <a href="./pairing">Pairing</a> to add devices, then <a href="./dashboard">Dashboard</a> to see your mesh in action.
+When everything is ready, head to <a href="/docs/mesh/pairing">Pairing</a> to add devices, then <a href="/docs/mesh/dashboard">Dashboard</a> to see your mesh in action.
