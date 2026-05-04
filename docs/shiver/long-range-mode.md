@@ -14,6 +14,10 @@ Long Range (LR) mode is an alternative radio setting that trades raw speed for r
 
 With Long Range off, the mesh runs at the standard rate (<strong>Rate: Std 1M</strong> on the About -> Mesh page), which is much faster but doesn't reach as far.
 
+:::important[Deployment and Range]
+Per-hop range varies from approximately 10 m (antenna at ground level on wet vegetation) to 100+ m (antenna elevated ≥1 m with near line-of-sight). Recommended deployment is elevated, dry, with line-of-sight between nodes.
+:::
+
 ### Turning Long Range On or Off
 
 <ul className="step-list">
