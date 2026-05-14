@@ -5,7 +5,7 @@ title: Emergency Mode
 Emergency Mode lets you instantly launch Flappy Bird from anywhere in the system.  
 Useful for quick distractions or silent exits from menus.
 <ul>
-  <li>Hold <strong>[R]</strong> and <strong>[S]</strong> together to activate.</li>
+  <li>Hold <strong>[R]</strong> and <strong>[L]</strong> together to activate.</li>
   <li>Flappy Bird will launch immediately, no matter where you are in the UI.</li>
 </ul>
 
