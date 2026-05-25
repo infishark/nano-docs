@@ -40,7 +40,7 @@ For a clean pairing experience, make sure every Nano you want on the mesh:
 
 <ul className="step-list">
   <li>Is powered on and running the latest firmware (see <a href="/docs/basics/updating">Updating</a>).</li>
-  <li>Has <strong>BLE Adv</strong> turned on under <strong>Config -> Settings -> Shiver</strong>. Pairing itself runs over Bluetooth; the devices swap to the mesh automatically after they're paired.</li>
+  <li>Has <strong>pair</strong> mode selected under <strong>Config -> Settings -> Shiver -> Mode</strong>. Pairing itself runs over Bluetooth; the devices swap to the mesh automatically after they're paired.</li>
 </ul>
 
 Long Range mode is <em>not</em> a prerequisite for pairing. Pairing uses Bluetooth, which isn't affected by the Long Range setting. See <a href="/docs/shiver/long-range-mode">Long Range Mode</a> for when and why you'd turn it on.

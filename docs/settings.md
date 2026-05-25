@@ -16,10 +16,10 @@ Settings are grouped by category:
 
 #### Shiver
 
-- <strong>BLE Adv</strong> - turn regular Bluetooth advertising on or off.
-- <strong>Shiver</strong> - enable Shiver, the multi-device protocol. See <a href="/docs/shiver/overview">Shiver Overview</a>.
+- <strong>Mode</strong> - swap between pairing and mesh mode, or off.
 - <strong>Name</strong> - the mesh name other Nanos see for this device. Up to 8 characters. Leave blank to fall back to the first four bytes of the eFuse ID.
 - <strong>Long Range</strong> - toggle the mesh's Long Range radio rate. See <a href="/docs/shiver/long-range-mode">Long Range Mode</a> for the tradeoffs.
+- <strong>Devices</strong> - view paired devices for Shiver.
 
 #### WiFi
 

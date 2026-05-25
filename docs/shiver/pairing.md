@@ -10,7 +10,7 @@ Pairing is how two or more Nanos get introduced to each other. Once paired, devi
 On every Nano you want on the mesh:
 
 <ul className="step-list">
-  <li>Make sure <strong>BLE Adv</strong> is turned on in <strong>Config -> Settings -> Shiver</strong>. Pairing itself runs over Bluetooth, then the devices swap to the mesh after they're paired.</li>
+  <li>Make sure <strong>pair</strong> mode is selected in <strong>Config -> Settings -> Shiver -> Mode</strong>. Pairing itself runs over Bluetooth, then the devices swap to the mesh after they're paired.</li>
   <li>Optionally set a mesh name in the <strong>Name</strong> row so other Nanos show a friendly label for the device instead of its eFuse ID (see <a href="/docs/shiver/overview">Overview</a>).</li>
 </ul>
 
@@ -33,7 +33,7 @@ Pairing uses one <strong>initiator</strong> and one or more <strong>peripherals<
 If a peripheral is still running the setup firmware (the state a Nano is in when it first ships, before its first full boot), it won't show the <em>"Pair with [eFuse]"</em> popup. It accepts automatically. The popup only appears on Nanos that have already been through normal setup at least once.
 :::
 
-If the scan doesn't find anything, check that every other Nano is powered on and that <strong>BLE Adv</strong> is enabled on them, then retry.
+If the scan doesn't find anything, check that every other Nano is powered on and that <strong>pair</strong> mode is enabled on them (Config -> Settings -> Shiver -> Mode), then retry.
 
 :::tip
 You only need to run Pair from <strong>one</strong> Nano. When that initiator finishes, every peripheral that accepted the popup is brought into the same mesh automatically.
