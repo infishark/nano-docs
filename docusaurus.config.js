@@ -61,8 +61,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/infishark-social-card.jpg',
-      defaultMode: 'dark',
-      disableSwitch: true,
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title: 'InfiShark Tech - Docs',
         logo: {
