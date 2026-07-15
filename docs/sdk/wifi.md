@@ -85,4 +85,4 @@ sudo infishark wifi adapter --ssid Lab --pass '...' --randomize-mac
 
 ## Portal
 
-See [Portal](./portal) for SoftAP options and host-streamed HTML.
+See [Portal](./portal.md) for SoftAP options and host-streamed HTML.

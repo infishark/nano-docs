@@ -102,4 +102,4 @@ The host SDK/CLI is GPL-3.0-only. The BLEShark Nano firmware is a separate, clos
 
 ## Next
 
-[Quick start](./quickstart)
+[Quick start](./quickstart.md)

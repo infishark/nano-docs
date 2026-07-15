@@ -19,7 +19,7 @@ curl -fsSL https://cdn.infishark.com/install.sh | sh
 irm https://cdn.infishark.com/install.ps1 | iex
 ```
 
-Details: [Install](./install).
+Details: [Install](./install.md).
 
 ## 1. Plug in and find the device
 
@@ -91,4 +91,4 @@ infishark files pull hs_something.pcap --out ./hs.pcap
 
 Long-running tools stop with **Ctrl-C** and send a device-side stop where applicable. You can also run other commands after the session ends; the OLED returns to normal menus when the host releases the task.
 
-Continue with [Wi-Fi](./wifi), [BLE](./ble), [Portal](./portal), [IR](./ir), or [Files](./files).
+Continue with [Wi-Fi](./wifi.md), [BLE](./ble.md), [Portal](./portal.md), [IR](./ir.md), or [Files](./files.md).

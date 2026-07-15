@@ -16,7 +16,7 @@ On-device menus still work without a host. The CLI unlocks research workflows th
 
 - A BLEShark Nano with firmware that includes the USB control plane
 - A computer with a free USB port
-- The open-source `infishark` CLI -- one-line install on [Install](./install)
+- The open-source `infishark` CLI -- one-line install on [Install](./install.md)
 
 :::tip[Linux for some features]
 Wi-Fi adapter mode and BLE HID bridge currently require **Linux** (and often root for tun / input grab). Scan, portal, monitor, handshake, GATT, IR, and files work on other platforms where serial works.
@@ -52,9 +52,9 @@ infishark --timeout-ms 5000 ...     # serial read timeout
 
 ## Next steps
 
-1. [Install](./install)
-2. [Quick start](./quickstart)
-3. Topic guides: [Wi-Fi](./wifi), [BLE](./ble), [Portal](./portal), [IR](./ir), [Files](./files)
+1. [Install](./install.md)
+2. [Quick start](./quickstart.md)
+3. Topic guides: [Wi-Fi](./wifi.md), [BLE](./ble.md), [Portal](./portal.md), [IR](./ir.md), [Files](./files.md)
 
 ## How docs are maintained
 
