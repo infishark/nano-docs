@@ -1,0 +1,8 @@
+{
+  "label": "SDK & CLI",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "sdk/overview"
+  }
+}
