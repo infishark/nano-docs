@@ -11,10 +11,6 @@ Your BLEShark Nano includes built-in games for quick, casual fun - great for pas
 ### Games on the BLEShark Nano
 
 <Tabs>
-  <TabItem value="malware" label="Malware Hunter">
-A vampire-survivors-style action game with auto-firing weapons, level-up upgrade cards, a persistent shop, and a boss fight at the end. <strong>[L]</strong> rotates left, <strong>[R]</strong> thrusts forward, <strong>[S]</strong> rotates right. Full guide: <a href="/docs/games/malware-hunter">Malware Hunter</a>.
-  </TabItem>
-
   <TabItem value="flappy" label="Flappy Bird">
 Tap <strong>[S]</strong> to flap. Avoid pipes and don't crash! It starts easy, then ramps up fast. Great for testing reflexes or killing five minutes.
   </TabItem>
@@ -42,7 +38,7 @@ React fast and dodge obstacles. No brakes, no mercy. **Use [R] to accelerate & [
 
 ### How to Exit a Game
 
-For most games, hold down the <strong>[S]</strong> button for two seconds to return to the games menu. Malware Hunter is the exception, because <strong>[S]</strong> is one of its in-game controls; leave a Malware Hunter run by dying, by winning, or through the <strong>EXIT</strong> option on its title screen.
+Hold down the <strong>[S]</strong> button for two seconds to return to the games menu.
 
 ### More Games Coming Soon
 

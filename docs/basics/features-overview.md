@@ -47,7 +47,6 @@ Most pentesting features (BLESpam, Wi-Fi AP Spam, Deauth, Deauth Checker, Captiv
 
 ## Games
 
-- **Malware Hunter** - Vampire-survivors-style action game with auto-firing weapons, level-up upgrade cards, a persistent shop, and a boss fight  
 - **Flappy Bird** - Tap to fly and avoid obstacles  
 - **Space Invaders** - Classic alien shooter  
 - **Pong** - Battle the AI in a retro paddle game  

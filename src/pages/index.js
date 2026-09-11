@@ -53,7 +53,7 @@ const quickLinks = [
     emoji: '👾',
     to: '/docs/games',
     description:
-      'Malware Hunter, Flappy Bird, Invaders, Pong, Breakout, T-Rex, Racing, and more.'
+      'Flappy Bird, Invaders, Pong, Breakout, T-Rex, Racing, and more.'
   },
   {
     title: 'Developers',
