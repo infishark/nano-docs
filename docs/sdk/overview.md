@@ -55,7 +55,7 @@ infishark --timeout-ms 5000 ...     # serial read timeout
 
 1. [Install](./install.md)
 2. [Quick start](./quickstart.md)
-3. Topic guides: [Wi-Fi](./wifi.md), [BLE](./ble.md), [Portal](./portal.md), [IR](./ir.md), [Files](./files.md), [Firmware](./flash.md). [Wi-Fi MITM](./wifi.md#wi-fi-mitm-development-checkout) documents an unreleased development command.
+3. Topic guides: [Wi-Fi](./wifi.md), [BLE](./ble.md), [Portal](./portal.md), [IR](./ir.md), [Files](./files.md), [Firmware](./flash.md).
 
 ## How docs are maintained
 

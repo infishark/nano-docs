@@ -26,7 +26,7 @@ Most pentesting features (BLESpam, Wi-Fi AP Spam, Deauth, Deauth Checker, Captiv
 
 ## Host SDK and CLI
 
-Connect the Nano over USB to scan and monitor Wi-Fi, run deep recon, capture handshakes, transmit test frames, script BLE GATT and HID, transfer files, and flash firmware. The CLI also offers a BLE GATT proxy on compatible firmware. Host-controlled Wi-Fi routing and traffic observation are in the development checkout. See [SDK and CLI](/docs/sdk).
+Connect the Nano over USB to scan and monitor Wi-Fi, run deep recon, capture handshakes, transmit test frames, script BLE GATT and HID, transfer files, and flash firmware. The CLI also offers a BLE GATT proxy on compatible firmware. See [SDK and CLI](/docs/sdk).
 
 ## Infrared (IR)
 

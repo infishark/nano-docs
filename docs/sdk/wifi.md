@@ -101,23 +101,3 @@ sudo infishark wifi adapter --ssid Lab --pass '...' --randomize-mac
 ## Portal
 
 See [Portal](./portal.md) for SoftAP options and host-streamed HTML.
-
-## Wi-Fi MITM (development checkout)
-
-:::caution
-`wifi mitm` is in the SDK development checkout, not the published v0.2.1 release. It also needs firmware with serial MITM session support added after v1.2.0.
-:::
-
-The Nano runs a host-controlled access point with an optional upstream Wi-Fi network. Use it only with clients and networks you are authorized to test.
-
-```bash
-infishark wifi mitm LabAP --pass 'labpassword' --upstream-index 0
-infishark wifi mitm LabAP --pass 'labpassword' --upstream-ssid Lab --upstream-pass 'upstreampassword'
-infishark wifi mitm LabAP --upstream-none --channel 6
-```
-
-Without an AP name, the CLI prompts for one. A blank AP password makes an open access point. The Nano has one 2.4 GHz radio, so its AP follows the upstream channel. Stop with Ctrl-C.
-
-Use `--dns-log` to log names, `--watch ip:port` to watch traffic, `--capture events.ndjson` to save events, or `--pcap traffic.pcap` to write a capture (not a channel-wide monitor capture). `--dns forward|captive|static` selects DNS handling, `--rewrite name=1.2.3.4` overrides a forwarded name, and `--http portal` enables captive HTTP handling. `--block AA:BB:CC:DD:EE:FF` blocks a client. `--steer` optionally sends deauth frames to a same-name upstream network in an authorized lab. Check `infishark wifi mitm --help` for all options.
-
-For routing without a host, see [Wi-Fi Router](/docs/pentesting/router).
