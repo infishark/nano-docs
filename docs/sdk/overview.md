@@ -37,8 +37,9 @@ Wi-Fi adapter mode and BLE HID bridge currently require **Linux** (and often roo
 | --- | --- | --- |
 | Ports | `infishark ports` | Find the Nano |
 | Device | `infishark device info` / `status` | Identity, heap, battery, mesh |
-| Wi-Fi | `infishark wifi ...` | Scan, deauth, handshake, monitor, adapter, portal, raw TX |
-| BLE | `infishark ble ...` | Scan, GATT, advertise, serve, HID |
+| Wi-Fi | `infishark wifi ...` | Scan, recon, deauth, handshake, monitor, adapter, portal, raw TX |
+| BLE | `infishark ble ...` | Scan, GATT, advertise, serve, HID; bonds and MITM on development main |
+| Firmware | `infishark flash ...` | List and install Nano firmware over USB |
 | IR | `infishark ir ...` | RX/TX, `.ir`, TV-B-Gone |
 | Files | `infishark files ...` | Pull / push on-device store |
 
@@ -54,7 +55,7 @@ infishark --timeout-ms 5000 ...     # serial read timeout
 
 1. [Install](./install.md)
 2. [Quick start](./quickstart.md)
-3. Topic guides: [Wi-Fi](./wifi.md), [BLE](./ble.md), [Portal](./portal.md), [IR](./ir.md), [Files](./files.md)
+3. Topic guides: [Wi-Fi](./wifi.md), [BLE](./ble.md), [Portal](./portal.md), [IR](./ir.md), [Files](./files.md), [Firmware](./flash.md). [Wi-Fi MITM](./wifi-mitm.md) documents an unreleased development command.
 
 ## How docs are maintained
 

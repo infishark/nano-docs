@@ -21,6 +21,17 @@ infishark wifi list
 
 Host-side OUI enrichment is available when a vendor DB is configured (`--oui-db` / manage tools).
 
+## Scan details and recon
+
+```bash
+infishark wifi scan --verbose
+infishark wifi show 1
+infishark wifi recon 1 --seconds 30
+infishark wifi recon --ssid LabAP
+```
+
+`wifi show` opens one AP from the last scan. `wifi recon` locks onto its channel and tracks stations, probes, and airtime while it listens. With no time limit, stop it with Ctrl-C. A shared SSID picks the strongest BSSID; use `--bssid` when you need a specific AP.
+
 ## Saved networks
 
 Used by on-device Connect, OTA, adapter, and associated monitor:
@@ -72,7 +83,11 @@ Staying associated keeps you on the AP channel and can improve visibility of BSS
 
 ```bash
 infishark wifi tx --hex <frame-hex-no-fcs> --channel 6 --count 3
+infishark wifi tx beacon --ssid LabTest --channel 6 --count 3
+infishark wifi tx deauth --bssid AA:BB:CC:DD:EE:FF --channel 6 --count 3
 ```
+
+Named templates include beacon, probe, deauth, disassoc, and data/control frames. `--count` and `--interval-ms` control on-device bursts; `--count 0` runs until Ctrl-C. The radio appends the FCS to raw frames. Use only on authorized test networks.
 
 ## Adapter (Linux)
 
@@ -85,4 +100,4 @@ sudo infishark wifi adapter --ssid Lab --pass '...' --randomize-mac
 
 ## Portal
 
-See [Portal](./portal.md) for SoftAP options and host-streamed HTML.
+See [Portal](./portal.md) for SoftAP options and host-streamed HTML. [Wi-Fi MITM](./wifi-mitm.md) covers host-controlled routing and traffic observation in the development checkout.

@@ -34,6 +34,29 @@ infishark ble gatt disconnect
 
 Connect supports pairing-related flags (`--secure`, `--bond`, `--mitm`, `--sc`, `--io-cap`, `--passkey`). See `--help`.
 
+:::caution[Development checkout]
+The bond roster and BLE MITM commands below were added after the SDK v0.2.1 tag. They need a newer CLI checkout and compatible firmware with the BLE serial support added after v1.2.0.
+:::
+
+## Paired devices
+
+```bash
+infishark ble bonds
+infishark ble bonds forget AA:BB:CC:DD:EE:FF
+```
+
+The bond roster includes saved peer names. GATT connect can reuse a stored bond instead of pairing again. Check `ble bonds --help` before forgetting one.
+
+## GATT proxy (MITM)
+
+```bash
+infishark ble mitm                  # scan and pick a peripheral
+infishark ble mitm 1 --pcap lab.pcap
+infishark ble mitm AA:BB:CC:DD:EE:FF --intercept
+```
+
+The Nano connects to the target peripheral, advertises a cloned GATT service to a central, and relays ATT traffic between the two links. Pairing is on by default. Follow passkey prompts if the target requires them. `--pcap` writes Bluetooth HCI traffic for Wireshark; `--intercept` holds ATT PDUs for an SDK callback to allow, drop, or replace, with an automatic allow timeout. Stop with Ctrl-C. Only proxy devices you own or have explicit permission to test.
+
 ## Advertise & serve
 
 ```bash

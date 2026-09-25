@@ -16,14 +16,14 @@ Settings are grouped by category:
 
 #### Shiver
 
-- <strong>Mode</strong> - swap between pairing and mesh mode, or off.
+- <strong>Mesh</strong> - turn the mesh on or off. Pairing is a separate action under <strong>Shiver -> Pair</strong>.
 - <strong>Name</strong> - the mesh name other Nanos see for this device. Up to 8 characters. Leave blank to fall back to the first four bytes of the eFuse ID.
-- <strong>Long Range</strong> - toggle the mesh's Long Range radio rate. See <a href="/docs/shiver/long-range-mode">Long Range Mode</a> for the tradeoffs.
 - <strong>Devices</strong> - view paired devices for Shiver.
 
 #### WiFi
 
 - <strong>WiFi Nets</strong> - manage the list of saved Wi-Fi networks. The Nano cycles through this list automatically on boot and during firmware updates until it finds one that's available, so you rarely need to touch it after first-time setup. Use the rows here to add new networks or remove old ones. The separate <strong>Wi-Fi -> Connect</strong> menu (not in Settings) is a testing tool for forcing a connection to a specific saved network so you can observe DHCP traffic, find an IoT device's IP, or run other tests against it.
+- <strong>Auto Crack</strong> - try the Nano's small common-password list after a handshake or PMKID capture. See <a href="/docs/pentesting/crack-psk">Crack PSK</a>.
 - <strong>Deauth Dly</strong> - delay between deauth frames, in milliseconds. Range 0 to 50.
 - <strong>AP Count</strong> - maximum number of access points to list when scanning. Range 10 to 500.
 - <strong>Evil SSID</strong> - Wi-Fi name the device broadcasts when running Evil Portal. Up to 32 characters.

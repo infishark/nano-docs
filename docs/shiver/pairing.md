@@ -13,8 +13,6 @@ Pairing runs over Bluetooth, then the devices swap to the mesh once they're pair
   <li>Optionally set a mesh name in <strong>Config -> Settings -> Shiver -> Name</strong> so other Nanos show a friendly label for the device instead of its eFuse ID (see <a href="/docs/shiver/overview">Overview</a>).</li>
 </ul>
 
-Long Range mode doesn't matter here. It only affects how the mesh talks after pairing, not the Bluetooth link used during pairing itself.
-
 ### How Pairing Works
 
 Every Nano you want to pair has to be on the Pair screen at the same time, because a Nano is only discoverable while it is actively pairing. One of them acts as the <strong>initiator</strong>, the device you drive to finish the round, and the rest are <strong>peripherals</strong> that accept. A single initiator can pair with up to 15 peripherals in one round.

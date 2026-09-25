@@ -47,6 +47,6 @@ Handheld captive / evil portal behavior is also documented under [Pentesting -> 
 
 ## Notes
 
-- Phone-facing SoftAP uses standard 2.4 GHz PHY (not mesh Long Range), so normal phones can see the network.
+- Phone-facing SoftAP uses standard 2.4 GHz PHY so normal phones can see the network.
 - Credential forms still post to on-device handlers; loot can be pulled with `infishark files` when stored on SPIFFS.
 - **Authorized lab use only.**

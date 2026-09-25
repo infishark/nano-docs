@@ -13,13 +13,20 @@ The BLEShark Nano packs a wide range of powerful tools into one pocket-sized dev
 - **Captive Portal** - Launch a custom captive portal on the Nano's own Wi-Fi network  
 - **Evil Portal** - Deploy login-style phishing pages for red team demos  
 - **Bad-BT** - Emulate a Bluetooth keyboard with DuckyScript injection  
-- **Handshake Capture** - Record WPA handshakes from single APs, whole networks, or an auto-rotating sweep of every nearby Wi-Fi  
+- **Handshake Capture** - Record WPA handshakes or PMKIDs from single APs, whole networks, or an auto-rotating sweep of every nearby Wi-Fi
+- **Crack PSK** - Try common passwords against a saved capture on the Nano ([guide](/docs/pentesting/crack-psk))
+- **Wi-Fi Router** - Share an upstream network through the Nano's access point and manage clients ([guide](/docs/pentesting/router))
+- **Detect** - Look for recognizable BLE and Wi-Fi devices nearby ([guide](/docs/pentesting/detect))
 - **Wi-Fi Scan** - Survey nearby 2.4GHz access points with SSID, signal strength, and per-device bars  
 - **BLE Scan** - Discover nearby Bluetooth Low Energy devices, with on-device manufacturer lookup  
 
 :::info[Run any of these across a Shiver mesh]
 Most pentesting features (BLESpam, Wi-Fi AP Spam, Deauth, Deauth Checker, Captive Portal, Handshake Capture, Wi-Fi Scan, BLE Scan) and the Infrared tools below (TV-B-Gone, IR Transmit, IR Receive) can be dispatched across every paired device at once, up to **16 Nanos per mesh**. See [Execute](/docs/shiver/execute).
 :::
+
+## Host SDK and CLI
+
+Connect the Nano over USB to scan and monitor Wi-Fi, run deep recon, capture handshakes, transmit test frames, script BLE GATT and HID, transfer files, and flash firmware. The CLI also offers a BLE GATT proxy on compatible firmware. Host-controlled Wi-Fi routing and traffic observation are in the development checkout. See [SDK and CLI](/docs/sdk).
 
 ## Infrared (IR)
 
@@ -34,7 +41,6 @@ Most pentesting features (BLESpam, Wi-Fi AP Spam, Deauth, Deauth Checker, Captiv
 - **Sync** - Copy handshakes, settings, submitted captive portal JSONs, or individual files between paired Nanos  
 - **Chat** - Send short text messages between Nanos on the mesh  
 - **Pair** - Wirelessly link multiple BLEShark Nanos into a private mesh  
-- **Long Range** - Optional radio rate that trades speed for distance, perfect for spread-out setups  
 
 ## Built-in Apps
 
